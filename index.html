@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reel tv - The Future of Together</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: #121212;
+            color: #FAFAFA;
+        }
+        header, footer {
+            background-color: #000;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        header img {
+            max-width: 160px;
+            margin-bottom: 0.5rem;
+        }
+        nav {
+            margin-top: 1rem;
+        }
+        nav a {
+            margin: 0 0.5rem;
+            color: #FAFAFA;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .section {
+            padding: 2.5rem 1.5rem;
+            max-width: 900px;
+            margin: auto;
+        }
+        .section h2 {
+            color: #00B0FF;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+        .section p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        .image-block, .icon-block {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .image-block img, .icon-block img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .verticals-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        .vertical-icon {
+            text-align: center;
+        }
+        .vertical-icon img {
+            max-width: 64px;
+            margin-bottom: 0.5rem;
+        }
+        footer p {
+            font-size: 0.9rem;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            nav a {
+                display: block;
+                margin: 0.5rem 0;
+            }
+            .section h2 {
+                font-size: 1.5rem;
+            }
+            .section p {
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="images/reeltv-logo-final.png" alt="ReelTV Logo">
+    <nav>
+        <a href="#hero">Home</a>
+        <a href="#verticals">Verticals</a>
+        <a href="#aila">Aila</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="section" id="hero">
+    <h2 style="font-size: 2.2rem; color: #00B0FF;">Welcome to the Future of Together.</h2>
+    <p>
+        reel tv isn’t just streaming — it’s the future, now.<br>
+        It’s how grandparents watch their grandkids open presents,<br>
+        how creators reach living rooms across the world,<br>
+        how therapy, education, and community go big screen.<br><br>
+        All hands-free. All real-time. All guided by Aila.
+    </p>
+    <div class="image-block">
+        <img src="images/hero_family.jpg" alt="Family watching TV">
+    </div>
+</section>
+
+<section class="section" id="verticals">
+    <h2>Verticals That Matter</h2>
+    <div class="verticals-grid">
+        <div class="vertical-icon">
+            <img src="images/shopping_icon.png" alt="Shopping">
+            <p>ReelShopping™</p>
+        </div>
+        <div class="vertical-icon">
+            <img src="images/classroom_icon.png" alt="Classroom">
+            <p>ReelClassroom™</p>
+        </div>
+        <div class="vertical-icon">
+            <img src="images/therapy_icon.png" alt="Therapy">
+            <p>ReelPT™</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Want to collaborate, invest, or learn more?</p>
+    <p>Email us: <a href="mailto:kali@reeltv.info" style="color: #00B0FF;">kali@reeltv.info</a></p>
+    <div class="image-block">
+        <img src="images/contact_desk.png" alt="Contact Desk">
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 reel tv – Built by Another Design Company (ADC)</p>
+</footer>
+
+</body>
+</html>
