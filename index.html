@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ReelTV</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      color: white;
+      font-family: sans-serif;
+    }
+    header {
+      padding: 20px;
+      background-color: #000;
+      text-align: center;
+    }
+    img.logo {
+      max-width: 240px;
+      height: auto;
+    }
+    main {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    section {
+      margin: 40px 0;
+    }
+    .features, .icons {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .feature, .icon-block {
+      background-color: #111;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 0 20px rgba(0,255,255,0.1);
+    }
+    .icon-block img {
+      max-width: 80px;
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2em;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/reeltv-logo-final-blue.png" alt="ReelTV Logo" class="logo" />
+  </header>
+
+  <main>
+    <section>
+      <h1>Welcome to ReelTV</h1>
+      <p>The AI-driven, voice-powered way to experience your favorite content — together.</p>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <h2>Voice Control</h2>
+        <p>Hands-free browsing and playback — just say what you want to watch.</p>
+      </div>
+      <div class="feature">
+        <h2>Cross-Platform</h2>
+        <p>Stream from TikTok, YouTube, Facebook and more without switching apps.</p>
+      </div>
+      <div class="feature">
+        <h2>Smart Personalization</h2>
+        <p>ReelTV learns your preferences and adapts to your viewing habits in real time.</p>
+      </div>
+    </section>
+
+    <section class="icons">
+      <div class="icon-block">
+        <img src="images/icon1.png" alt="Streaming icon">
+        <p>Live and recorded content in sync with your feed.</p>
+      </div>
+      <div class="icon-block">
+        <img src="images/icon2.png" alt="Group watch icon">
+        <p>Group watch with friends or family remotely.</p>
+      </div>
+      <div class="icon-block">
+        <img src="images/icon3.png" alt="Accessibility icon">
+        <p>Closed captions and multi-language support.</p>
+      </div>
+      <div class="icon-block">
+        <img src="images/icon4.png" alt="Educational icon">
+        <p>Classroom-ready features for shared learning.</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
