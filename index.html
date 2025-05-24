@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ReelTV</title>
+  <style>
+    :root {
+      --brand-blue: #00bfff;
+      --brand-black: #000000;
+      --brand-white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background-color: var(--brand-black);
+      color: var(--brand-white);
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.5;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+      background-color: var(--brand-black);
+    }
+
+    img.logo {
+      max-width: 200px;
+      height: auto;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin: 40px 0;
+      text-align: center;
+    }
+
+    h1, h2 {
+      color: var(--brand-blue);
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1em;
+      max-width: 800px;
+      margin: 0 auto 20px auto;
+      padding: 0 10px;
+    }
+
+    .features, .icons {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 0 10px;
+    }
+
+    .feature, .icon-block {
+      background-color: #111;
+      border: 1px solid var(--brand-blue);
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 0 12px rgba(0, 191, 255, 0.2);
+    }
+
+    .icon-block img {
+      max-width: 60px;
+      margin-bottom: 10px;
+    }
+
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/reeltv-logo-final-blue.png" alt="ReelTV Logo" class="logo" />
+  </header>
+
+  <main>
+    <section>
+      <h1>ReelTV is Here</h1>
+      <p>The AI-powered casting experience that brings your content, your people, and your moments to the big screen — without lifting a finger.</p>
+    </section>
+
+    <section class="video-container">
+      <iframe src="https://www.youtube.com/embed/HlOVDYRd3Ak" title="ReelTV Teaser" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <h2>Voice Activated</h2>
+        <p>Control your stream without a remote. Just speak and ReelTV responds.</p>
+      </div>
+      <div class="feature">
+        <h2>Cross-App Streaming</h2>
+        <p>Watch TikTok, YouTube, Reels, and more — no switching, no logging in again.</p>
+      </div>
+      <div class="feature">
+        <h2>Smart Personalization</h2>
+        <p>ReelTV learns your habits and curates content just for you and your family.</p>
+      </div>
+    </section>
+
+    <section class="icons">
+      <div class="icon-block">
+        <img src="images/icon1.png" alt="Live Feed Icon">
+        <p>Real-time streams & personalized discovery</p>
+      </div>
+      <div class="icon-block">
+        <img src="images/icon2.png" alt="Group Mode Icon">
+        <p>Watch with your crew, even when miles apart</p>
+      </div>
+      <div class="icon-block">
+        <img src="images/icon3.png" alt="Accessibility Icon">
+        <p>Translation, captions, & inclusive access</p>
+      </div>
+      <div class="icon-block">
+        <img src="images/icon4.png" alt="Education Icon">
+        <p>Classroom-ready content tools</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 ReelTV. All rights reserved.
+  </footer>
+</body>
+</html>
